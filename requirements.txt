@@ -1,0 +1,12 @@
+torch>=2.2
+transformers>=4.44
+peft>=0.11
+accelerate
+datasets
+jarvis-tools
+scipy
+numpy
+sentencepiece
+protobuf
+# optional, ~2x faster training/inference:
+# unsloth
