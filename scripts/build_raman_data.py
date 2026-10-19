@@ -20,7 +20,7 @@ from jarvis.analysis.structure.spacegroup import Spacegroup3D
 Raman = "/data/kchoudh2/work/alignn2026/raman/train_raman"
 OUT = "/data/kchoudh2/RamanGPT/data/raman_split"
 GRID = np.linspace(
-    0.0, 2000.0, 200
+    50.0, 1000.0, 200
 )  # cm^-1, matches irdb build (D=200, 50-1000)
 NUM_PEAKS = 20
 
